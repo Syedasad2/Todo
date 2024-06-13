@@ -1,0 +1,119 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #918c8c;
+  }
+  
+  #login_container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #8b0202;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #666464;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background: #cdc7c7;
+    margin: 20px 0;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #d2c3c3;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #cbddcb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+.button{
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(241, 164, 178, 0.098);
+    color-scheme:inherit;
+}
+/* home page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #161515;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #home_container {
+    padding: 20px;
+    background: #a19404;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #user_email {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  #todo_input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }

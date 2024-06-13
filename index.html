@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="login_container">
+      <h1>Login Form <hr></h1>
+      <input type="email" placeholder="Email" id="email"/><br>
+      <input type="password" placeholder="Password" id="password"/><br>
+      <button onclick="loginUser()" class="button" style="margin-top: 10px;">login</button>
+    </div>
+    <div id="home_container">
+      <h1>Welcome</h1>
+      <h2 id="user_email"></h2>
+      <input type="text" name="" id="todo_input" placeholder="Add your work" />
+      <button onclick="addTodo()" class="button">Add</button>
+      <ul id="list">
+      </ul>
+      <button onclick="logout()" class="button">logout</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
