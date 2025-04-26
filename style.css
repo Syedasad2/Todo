@@ -1,13 +1,14 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #918c8c;
+    /* background-color:; */
   }
   
   #login_container {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background: #8b0202;
+    margin-top: 10rem;
+    /* background: #8b0202; */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -31,38 +32,40 @@ body {
     padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid #d2c3c3;
+    border: 1px solid #191818;
     border-radius: 4px;
     font-size: 16px;
   }
   
   button {
-    background-color: #cbddcb;
-    color: white;
+    background-color: #ddcbcb;
+    color: rgb(23, 22, 22);
     border: none;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #0f841e;
   }
 .button{
     border-radius: 5px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(241, 164, 178, 0.098);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgba(12, 0, 0, 0.098); */
     color-scheme:inherit;
+    
+
 }
 /* home page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #161515;
+    /* background-color: #161515; */
     margin: 0;
     padding: 0;
   }
   
   #home_container {
     padding: 20px;
-    background: #a19404;
+    /* background: #a19404; */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -75,7 +78,7 @@ body {
   
   #user_email {
     text-align: center;
-    color: #666;
+    color: #151515;
     margin-bottom: 20px;
   }
   
@@ -84,7 +87,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #161515;
     border-radius: 4px;
     font-size: 16px;
   }
@@ -96,12 +99,12 @@ body {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
     color: white;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #e0eae0;
   }
   
   ul {
